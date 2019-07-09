@@ -1,0 +1,85 @@
+/******
+General
+
+target image size so this doesnt stretch
+target link underlines to remove
+*******/
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/******
+Header
+*******/
+header {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+/******
+Navigation
+Center Text
+Remove Bullit Points in the list style
+List Items Display in a line across not stacked
+*******/
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+
+/******
+Body
+*******/
+
+
+
+/******
+Footer
+*******/
+
+footer {
+    text-align: center;
+}
+
+/******
+Page Portfolio
+#target id
+*******/
+#gallery {
+    list-style: none;
+}
+
+/******
+Colors
+
+nav a style links
+*******/
+
+header {
+    background-color: #599a68;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+}
+
+.selected{
+    color: #32673f;
+}
