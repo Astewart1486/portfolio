@@ -4,12 +4,27 @@ General
 target image size so this doesnt stretch
 target link underlines to remove
 *******/
+body  {
+    font-family: 'Montserrt', sans-serif
+}
+
 img {
     max-width: 100%;
 }
 
 a {
     text-decoration: none;
+}
+
+h1{
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+
+h2{
+    font-size: 0.75em;
+    margin: -5 0 0;
 }
 
 /******
@@ -29,14 +44,29 @@ List Items Display in a line across not stacked
 *******/
 nav {
     text-align: center;
+
+    padding: 10px 0;
+    margin: 20px 0 0;
+
 }
 
 nav ul {
     list-style: none;
+
+    margin: 0 10px;
+    padding: 0;
+
 }
 
 nav li {
     display: inline-block;
+}
+
+
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+    
 }
 
 
@@ -60,7 +90,65 @@ Page Portfolio
 *******/
 #gallery {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
+#gallery li {
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+#gallery li p{
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+}
+
+/******
+PAGE: ABOUT
+*******/
+
+
+
+/******
+PAGE: CONTACT
+*******/
+
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    background-repeat: no-repeat;
+    min-height: 20px; 
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url('../img/phone.png');
+}
+.contact-info li.mail a {
+    background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a {
+    background-image: url('../img/twitter.png');
+}
+
+
+
+
+}
+
 
 /******
 Colors
@@ -68,13 +156,60 @@ Colors
 nav a style links
 *******/
 
+
+body {
+    background-color: #fff;
+    color: #999;
+    
+}
+
+header {
+    background: #6ab47b;
+    background-color: #599a68;
+}
+
+/* nav background on mobile */
+
+nav {
+    background: #599a68;
+    
+}
+
+pwd
+/* logo color */
+
 header {
     background-color: #599a68;
 }
 
+
 h1, h2 {
     color: #fff;
 }
+
+
+/* links */
+a {
+    color: #fff;
+    
+}
+
+nav a, nav a:visited {
+    color: #fff;
+}
+
+/* selected nav links*/
+
+}
+
+nav a:hover {
+    color: #32673f;
+    
+}
+
+nav a.selectected, nav a:hover {
+    color: #32673f;
+    
 
 nav a {
     color: #fff;
@@ -82,4 +217,5 @@ nav a {
 
 .selected{
     color: #32673f;
+
 }
